@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>SISKOM 3D</title>
+    <style>
+      body {
+          background-image: url(https://c4.wallpaperflare.com/wallpaper/131/869/302/pastel-blue-blur-gradation-wallpaper-preview.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          color: #555;
+      }
+
+      .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 10px;
+      }
+
+      .image-container {
+        text-align: center;
+        width: 100%;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .link {
+        min-width: 50% !important;
+      }
+
+      .w3-light-grey, .w3-hover-light-grey:hover {
+        color: rgb(154, 147, 147)!important;
+        background-color: lightgrey !important;
+      }
+
+      p, .w3-text-white, .w3-tag {
+        color: #555 !important;
+      }
+    </style>
+    <script>
+      function redirecToInput() {
+        window.location.href = 'input.html';
+      }
+      function redirectToOutput() {
+        window.location.href = 'output.html';
+      }
+    </script>
+  </head>
+
+  <body class="w3-white">
+    <div class="container">
+      <div class="title">SISKOM 3D</div>
+      <div class="image-container">
+        <img
+          src="kom.png"
+          class="w3-margin"
+          alt="Komputer"
+          max-width="200%"
+          height="200px"
+          style="border-radius: 50%"
+        />
+        <div class="w3-text-white">
+          <p class="w3-large">Selamat datang di aplikasi SISKOM 3D <br/> nikmati pembelajaran dalam pengenalan perangkat keras secara interaktif dan bernuansa 3D </p>
+        </div>
+
+        <div class="links-container">
+          <button onclick="redirecToInput()" class="w3-button w3-hover-light-grey w3-large w3-round w3-grey w3-border link">PERANGKAT INPUT</button>
+          <button onclick="redirectToOutput()" class="w3-button w3-hover-light-grey w3-large w3-round w3-grey w3-border link">PERANGKAT OUTPUT</button>
+      
+        </div>
+      </div>
+    </div>
+    
+
+
+    <footer><br>
+      <center>
+        <p>Dibuat oleh <br/> Rani Lutfia Zahra<br/> Irvan Shaputra <br/> M.Akbar Ar-Rasyid <br/>© 2025</p>
+      </center>
+    </footer>
+  </body>
+</html>

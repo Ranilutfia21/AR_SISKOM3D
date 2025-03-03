@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perangkat input</title>
+    <style>
+        body {
+            color: #555;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('WP.png'); /* Path ke gambar dalam folder */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100vw; /* Memastikan lebar penuh viewport */
+            height: 90vh; /* Memastikan tinggi penuh viewport */
+            margin: 0; /* Menghilangkan margin default */
+            padding: 0;
+        }
+        .container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 10px auto;
+            border: none;
+            background-color: #7f8c8d;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #2c3e50;
+        }
+        .back-button {
+            background-color: #bdc3c7;
+        }
+        .back-button:hover {
+            background-color: #7f8c8d;
+        }
+    </style>
+    <script>
+        function redirectToIndex() {
+          window.location.href = 'index.html';
+        }
+      </script>
+</head>
+<body>
+    <div class="container">
+        <h2>PERANGKAT INPUT</h2> 
+        <br/>  
+        <button onclick="window.location.href='https://asblr.com/922bd5' "class="button">KEYBOARD</button>
+        <button onclick="window.location.href='https://asblr.com/ee7f94' "class="button">MOUSE</button>
+        <button onclick="window.location.href='https://asblr.com/c2c0ee' "class="button">JOYSTICK</button>
+        <button onclick="window.location.href='https://asblr.com/332a63' "class="button">MICROPHONE</button>
+         <br/>
+        <button onclick= "redirectToIndex()" class="button back-button"> KEMBALI KE HALAMAN UTAMA</button>
+    </div>
+</body>
+</html>
